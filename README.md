@@ -20,7 +20,7 @@ pkg install git -y
 ```
 3. Clone this repo
 ```
-git clone https://github.com/backup-heavenly-demons/heavenly-demons-cli
+git clone https://github.com/Kiel-O/Kiheo
 ```
 4. Open the folder
 ```
