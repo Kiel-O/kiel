@@ -24,7 +24,7 @@ git clone https://github.com/Kiel-O/kiel.git
 ```
 4. Open the folder
 ```
-cd heavenly-demons-cli
+cd kiel
 ```
 5. Setup
 ```
