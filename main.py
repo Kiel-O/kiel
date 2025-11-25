@@ -145,6 +145,8 @@ def main():
                 show_hot_menu2()
             elif choice == "5":
                 get_packages_by_family("5dab52d5-6f02-4678-b72f-088396ceb113")
+            elif choice == "s":
+                get_packages_by_family("20342db0-e03e-4dfd-b2d0-cd315d7ddc36")  
             elif choice == "6":
                 get_packages_by_family("f3303d95-8454-4e80-bb25-38513d358a11")
             elif choice == "7":
@@ -210,19 +212,7 @@ def main():
                 show_store_packages_menu(profile['subscription_type'], is_enterprise)
             elif choice == "17":
                 input_14_1 = cyber_input("Is enterprise? (y/n)").lower()
-                is_enterprise = input_14_1 == 'y'
-         
-            elif choice == "s":
-                get_packages_by_family("20342db0-e03e-4dfd-b2d0-cd315d7ddc36")  
-                option_code = cyber_input("Enter option code (or '99' to cancel)")
-                if option_code == "99":
-                    continue
-                show_package_details(
-                    AuthInstance.api_key,
-                    active_user["tokens"],
-                    option_code,
-                    False
-                )     
+                is_enterprise = input_14_1 == 'y'            
                 show_redeemables_menu(is_enterprise)
             elif choice == "00":
                 show_bookmark_menu()
