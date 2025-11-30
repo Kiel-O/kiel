@@ -236,6 +236,9 @@ def main():
                     )
                 console.print_json(data=res)
                 pause()
+
+            elif choice.lower() == "tf":
+                show_balance_allotment_menu()
             elif choice.lower() == "v":
                 msisdn = cyber_input("Enter the msisdn to validate (628xxxx)")
                 with loading_animation("Validating..."):
